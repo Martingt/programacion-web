@@ -1,0 +1,81 @@
+html {
+	background: url(../img/fondoIndex.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.navegacion li {
+    background-color: #787878; 
+    list-style: none; 
+    z-index: 10;  
+    position: relative;  
+    text-align: left;
+}
+
+.navegacion li a {
+    color: #FFF; 
+    text-decoration: none;
+    padding: 10px 15px; 
+    display: block; 
+    white-space: nowrap; 
+}
+
+.navegacion li:hover {    
+    background-color: #333;
+}
+
+.navegacion > li { 
+    display: inline-block; 
+}
+
+.navegacion > li:last-child {
+   border-right: none;
+}
+
+.ids li form {
+	display:none;
+    position: absolute;
+}
+
+.ids li:hover form{
+            
+    display: block;
+}
+.navegacion li ul {     
+    display:none;
+    position: absolute;
+}
+
+.navegacion li:hover > ul {
+            
+    display: block;
+}
+
+.navegacion > li ul{
+    top: 0%; 
+    left: 100%;
+    padding-left: 1px;
+}
+
+.navegacion > li .nivel1 {
+    top: 100%; 
+    left: 0;
+    padding-top: 1px;
+    padding-left: 0;
+}
+
+#menuNavegacion{
+    font-family: Verdana; 
+    font-size: 13px;  
+}
+
+#logo img {
+	display: block;
+	width: 120px;
+	height: 120px;
+	margin: 0 auto;
+	
+}

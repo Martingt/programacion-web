@@ -1,23 +1,49 @@
 <html>
 	<head>
-		<title>Iniciar Sesion</title>
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8"/> 
-		<link rel="stylesheet" type="text/css" href="../css/estilos.css"/>
+		<link type="text/css" href="../css/menu.css" rel="stylesheet">
+		</link>
+   		<title>Previa UCA</title>
 	</head>
 	<body>
-			<div class="container">
-				<img src="../img/usuario.png"/>
-				<form>
-					<div class="form-input">
-						<input type="text" name="username">
-
+		<div id="envolturaPrincipal" class="envoltura">
+			<div id="top">
+				<div id="cabecera">
+					<div id="logo">
+						<img src="../img/logo.png">
 					</div>
-					<div class="form-input">
-						<input type="password" name="password">
+					<div id="incioDeSesion">
+						<ul class="ids">
+							<li><a href="#">Hola!, Inicia Sesión</a>
+								<form>
+									<div class="form-input">
+										<input type="text" name="username">
 
+									</div>
+									<div class="form-input">
+										<input type="password" name="password">
+
+									</div>
+										<input type="submit" name="submit" value="INGRESAR" class="btn-login" onClick="window.location = 'http://www.google.com.ar';">
+								</form>
+							</li>
+						</ul>
 					</div>
-					<input type="submit" name="submit" value="INGRESAR" class="btn-login" onClick="window.location = 'http://www.google.com.ar';">
-				</form>
+					<div id="menuNavegacion" class="envoltura">
+						<div class="contenido">
+							<ul class="navegacion">
+								<li><a href="#">Bebidas</a>
+									<ul class="nivel1">
+										<li><a href="#">TAs</a></li>
+									</ul>
+								</li>
+								<li><a href="http:/www.google.com.ar">Conctacto</a></li>
+							</ul>
+						</div>
+					</div>
+					
+				</div>
 			</div>
+		</div>
 	</body>
 </html>
